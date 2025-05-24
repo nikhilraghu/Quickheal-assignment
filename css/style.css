@@ -303,7 +303,10 @@ input:-webkit-autofill {
     padding: 2rem 1rem;
     border-radius: 1.25rem;
   }
-
+.s-hero {
+  padding: 220px 0 0 0;
+   background-position: center top;
+}
   .btn-submit {
     width: 100%;
   }
