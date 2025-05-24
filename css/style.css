@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #0b0121 !important;
+  color: #ececec !important;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Navbar */
+header nav.navbar {
+  background-color: #0b0121;
+  z-index: 1030;
+}
+
+header nav.navbar .navbar-brand img {
+  height: 25px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #ffffffaf !important;
+}
+
+.text-gradient {
+  background-image: linear-gradient(180deg, #ececec, #ececec80);
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  font-weight: 500 !important;
+}
+
+.btn-custom-light {
+  background: #ececec;
+  color: #0b0121;
+  border-radius: 50px;
+  padding: 0.8rem 2rem;
+  border: none;
+}
+
+.btn-custom-outline {
+  background: transparent;
+  border: 1px solid #ececec;
+  color: #ececec;
+  border-radius: 50px;
+  padding: 0.8rem 2rem;
+}
+
+.btn-custom-outline:hover {
+  background: #ececec;
+  color: #0b0121;
+}
+
+/* --- Hero Section --- */
+.s-hero {
+  min-height: 100vh;
+  padding: 250px 0 180px 0;
+  background: url("../assets/images/hero-background.jpg") center center / cover
+    no-repeat;
+  text-align: center;
+}
+
+.announcement {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.s-hero h1.display-1 {
+  background: linear-gradient(180deg, #ececec, #ececec80);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.s-hero p.fs-5 {
+  max-width: 600px;
+  margin: 1.5rem auto 2rem auto;
+  color: #ececec !important;
+  font-weight: 100 !important;
+}
+
+.hero-img {
+  max-width: 90%;
+  border-radius: 20px;
+  margin-top: 5rem;
+  box-shadow: 0 -10px 40px rgba(187, 155, 255, 0.15),
+    0 4px 15px rgba(233, 223, 255, 0.25),
+    inset 0 0.5px 0 rgba(255, 255, 255, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.hero-img:hover {
+  box-shadow: 0 0.5px 0 rgba(255, 255, 255, 0.5) inset,
+    0 -2px 40px rgba(187, 155, 255, 0.24), 0 -2px 10px rgba(233, 223, 255, 0.58);
+}
+
+/* --- Clients Section --- */
+.clients-sec p {
+  font-size: 1.25rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.logo-carousel .owl-stage-outer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo-carousel img {
+  height: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* --- Features Section --- */
+.features-sec-head {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #ececec;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.features-sec-sub-head {
+  font-size: 1.25rem;
+  color: #ececec;
+  font-weight: 200;
+  margin-bottom: 4rem;
+}
+
+.feature-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent);
+  box-shadow: inset 0 0.5px 0 rgba(255, 255, 255, 0.5),
+    0 -2px 40px rgba(187, 155, 255, 0.15), 0 -2px 10px rgba(233, 223, 255, 0.3);
+  padding: 3rem;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  box-shadow: inset 0 0.5px 0 rgba(255, 255, 255, 0.5),
+    0 -2px 40px rgba(187, 155, 255, 0.24), 0 -2px 10px rgba(233, 223, 255, 0.58);
+}
+
+.feature-card h2 {
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  font-weight: 200;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.collab-img {
+  box-shadow: 0 -10px 40px rgba(187, 155, 255, 0.15),
+    0 4px 15px rgba(233, 223, 255, 0.25),
+    inset 0 0.5px 0 rgba(255, 255, 255, 0.01);
+  border-radius: 0.5rem;
+}
+
+.features-sec .container .row .col-12 {
+  margin-top: 4rem !important;
+}
+
+/* --- Footer --- */
+.footer {
+  background-color: #0b0121;
+  color: #777777;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 40px 0;
+}
+
+/* --- Back to Top Button --- */
+.back-to-top-wrapper {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  text-align: center;
+  z-index: 1050;
+  user-select: none;
+  display: none;
+}
+
+.back-to-top-btn {
+  background-color: #d9d9d9;
+  border: none;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(187, 155, 255, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.back-to-top-btn:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(187, 155, 255, 0.8);
+}
+
+.back-to-top-text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 6px;
+  user-select: none;
+}
+
+/* --- Modal Styles --- */
+.form-box {
+  border-radius: 2rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px dashed #888;
+  border-radius: 0;
+  padding: 0.75rem 0;
+  font-size: 1rem;
+  color: #222;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.custom-input:focus,
+.custom-input:active,
+.custom-input:valid {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px dashed #555;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #f1f2f6 inset;
+  box-shadow: 0 0 0 1000px #f1f2f6 inset;
+  -webkit-text-fill-color: #000;
+}
+
+.was-validated .custom-input:invalid {
+  border-bottom: 2px dashed #dc3545;
+}
+
+.was-validated .custom-input:valid {
+  border-bottom: 2px dashed #28a745;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.btn-submit {
+  background: linear-gradient(90deg, #3a0ca3, #5f0fce);
+  color: white;
+  padding: 0.6rem 3rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  transition: opacity 0.3s ease;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+/* --- Mobile Responsive  --- */
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .form-box {
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
+
+  .s-hero {
+    padding: 200px 0 0 0;
+  }
+}

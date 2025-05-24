@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vaultflow - Quick Heal Assignment</title>
+
+
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon" />
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logos/logo.svg" alt="Logo Vaultflow" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <ul class="navbar-nav align-items-lg-center gap-lg-4 gap-3">
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item">
+                            <button class="btn btn-light text-dark rounded-pill px-4 py-2">Download the app</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-light rounded-pill px-4 py-2" data-bs-toggle="modal"
+                                data-bs-target="#expertModal">
+                                Talk to an expert
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="s-hero d-flex align-items-center hero">
+        <div class="container text-center">
+            <strong class="announcement">
+                We just raised $20M in Series B. Learn more
+            </strong>
+            <h1 class="display-1 fw-semibold text-gradient">
+                Modern analytics <br> for the modern world
+            </h1>
+            <p class="fs-5 my-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                tristique.
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <button class="btn btn-light text-dark rounded-pill px-4 py-3 fw-normal">Download the app</button>
+                <button class="btn btn-outline-light rounded-pill px-4 py-2" data-bs-toggle="modal"
+                    data-bs-target="#expertModal">
+                    Talk to an expert
+                </button>
+            </div>
+            <img src="./assets/images/hero-image-original.png" alt="Dashboard screen" class="hero-img rounded-5" />
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="py-5 text-center clients-sec">
+        <div class="container">
+            <p class="mb-4">Trusted by teams at over 1,000 of the world's leading organizations</p>
+            <div class="owl-carousel owl-theme logo-carousel">
+                <div><img src="./assets/logos/dell.svg" alt="Dell" /></div>
+                <div><img src="./assets/logos/zendesk.svg" alt="Zendesk" /></div>
+                <div><img src="./assets/logos/rakuteen.svg" alt="Rakuten" /></div>
+                <div><img src="./assets/logos/pacific.svg" alt="Pacific" /></div>
+                <div><img src="./assets/logos/ncr.svg" alt="NCR" /></div>
+                <div><img src="./assets/logos/lattice.svg" alt="Lattice" /></div>
+                <div><img src="./assets/logos/ted.svg" alt="TED"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 features-sec">
+        <div class="container">
+            <h2 class="text-center mb-4 features-sec-head">Features that <br>work for your <br>future.</h2>
+            <p class="text-center text-white-50 features-sec-sub-head">
+                Check out our amazing features and experience the <br>power of Vaultflow for yourself
+            </p>
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="feature-card h-100">
+                        <img src="./assets/icons/analytics.svg" alt="Analytics" class="mb-3" />
+                        <h2>Analytics Dashboard</h2>
+                        <p>
+                            Our Analytics Dashboard provides a clear and intuitive interface for you to easily analyze
+                            your data. From customizable graphs to real-time data updates, our dashboard offers
+                            everything you need to gain valuable insights.
+                        </p>
+                        <a href="#" class="text-white text-decoration-underline">View dashboard</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="feature-card h-100">
+                        <img src="./assets/icons/digital.svg" alt="Digital Tokens" class="mb-3" />
+                        <h2>Digital Credit Tokens</h2>
+                        <p>
+                            Reward your customers and incentivize engagement with our innovative digital credit tokens.
+                            Our tokens can be customized to match your branding, and are a flexible and scalable way to
+                            drive customer loyalty and encourage repeat business.
+                        </p>
+                        <a href="#" class="text-white text-decoration-underline">View tokens</a>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="feature-card d-lg-flex align-items-center justify-content-between">
+                        <div class="pe-lg-5">
+                            <img src="./assets/icons/code.svg" alt="Code" class="mb-3" />
+                            <h2>Code collaboration</h2>
+                            <p>
+                                Our advanced code synchronization technology ensures that your data is always up-to-date
+                                and accurate, no matter where it's coming from. Whether you're integrating data from
+                                multiple sources or working with a team of developers, our synchronization technology
+                                makes it easy to collaborate and ensure that your data is consistent and reliable.
+                            </p>
+                            <a href="#" class="text-white text-decoration-underline">View code collaboration</a>
+                        </div>
+                        <img src="./assets/images/screen-digital-token.png" alt="Token screen"
+                            class="img-fluid mt-4 mt-lg-0 rounded collab-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-secondary position-relative">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                    <small>© 2025 Vaultflow. All Rights Reserved.</small>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                    <img src="./assets/logos/Vaultflow-header-logo.png" alt="Vaultflow" height="24" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div id="backToTopWrapper" class="back-to-top-wrapper">
+        <button id="backToTop" aria-label="Back to top" title="Back to top" class="back-to-top-btn">
+            <img src="./assets/icons/back_to_top_arrow.svg" alt="Back to top icon" width="32" height="32">
+        </button>
+        <div class="back-to-top-text">Back to top</div>
+    </div>
+
+    <!-- Modal Popup -->
+    <div class="modal fade " id="expertModal" tabindex="-1" aria-labelledby="expertModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content form-box p-4 p-md-5">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title w-100 text-center fw-bold fs-3 text-dark" id="expertModalLabel">Talk to
+                        Expert</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <form id="expertForm" novalidate>
+                        <div class="mb-4">
+                            <input type="text" class="form-control custom-input" placeholder="Name*" required />
+                            <div class="invalid-feedback">Please enter your name.</div>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control custom-input" placeholder="Email ID*" required />
+                            <div class="invalid-feedback">Enter a valid email address.</div>
+                        </div>
+                        <div class="mb-4">
+                            <input type="tel" class="form-control custom-input" placeholder="Phone Number*"
+                                pattern="[0-9]{10}" required />
+                            <div class="invalid-feedback">Enter a valid 10-digit phone number.</div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jQuery and Owl Carousel JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Custom JS Files -->
+    <script src="./js/form-validation.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/owl-carousel.js"></script>
+
+
+
+</body>
+
+</html>
