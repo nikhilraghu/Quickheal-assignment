@@ -293,6 +293,10 @@ input:-webkit-autofill {
   .container {
     padding: 0 1.5rem;
   }
+  .hero-img {
+    max-width: 100%;
+    border-radius: 10px !important;
+  }
 
   .form-box {
     margin: 1rem;
@@ -305,6 +309,19 @@ input:-webkit-autofill {
   }
 
   .s-hero {
-    padding: 200px 0 0 0;
+    padding: 0;
+  }
+  .announcement {
+    font-size: 0.9rem;
+  }
+  .display-1 {
+    font-size: 30px;
+  }
+  .fs-5 {
+    font-size: 15px !important;
+  }
+  .back-to-top-btn {
+    width: 50px;
+    height: 50px;
   }
 }
