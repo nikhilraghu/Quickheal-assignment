@@ -304,7 +304,7 @@ input:-webkit-autofill {
     border-radius: 1.25rem;
   }
 .s-hero {
-  padding: 220px 0 0 0;
+  padding: 220px 0 50px 0;
    background-position: center top;
 }
   .btn-submit {
@@ -312,13 +312,13 @@ input:-webkit-autofill {
   }
 
   .announcement {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .display-1 {
     font-size: 30px;
   }
   .fs-5 {
-    font-size: 15px !important;
+    font-size: 1rem !important;
   }
   .back-to-top-btn {
     width: 50px;
